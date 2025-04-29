@@ -4,7 +4,13 @@ import { Link } from "expo-router";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Trang Chủ</Text>
+      <Text
+        style={{
+          color: "red",
+        }}
+      >
+        Home Screen
+      </Text>
       <Link href={"/notification"}>Feeds screen in tabs</Link>
     </View>
   );
